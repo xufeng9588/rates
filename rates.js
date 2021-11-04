@@ -1,7 +1,6 @@
-// const { database } = require('./until/database');
-const { getRates } = require('./until/index');
+const { getRates } = require('./utils/index');
 
 function rates() {
-    getRates('OKEX');
+    getRates('HUOBI');
 }
 rates()

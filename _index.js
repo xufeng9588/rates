@@ -1,5 +1,5 @@
-const { getRates  } = require('./until/index');
-const { urlMap  } = require('./until/config');
+const { getRates  } = require('./utils/index');
+const { urlMap  } = require('./utils/config');
 
 const OKUrlMap = [
     {
