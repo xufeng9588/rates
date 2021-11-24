@@ -1,6 +1,6 @@
-const { getRates } = require('./utils/index');
+const { getRates } = require('./utils/index');
 
 function rates() {
-    getRates('HUOBI');
+    getRates('BINANCE','postgres','','');
 }
 rates()
